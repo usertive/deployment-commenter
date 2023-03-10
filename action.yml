@@ -1,0 +1,9 @@
+name: 'Commenter'
+description: 'Comment on PRs or commits after successfull deployment'
+inputs:
+  unique-deployment-domain:
+    description: 'Output of `amondnet/vercel-action` action'
+    required: true
+runs:
+  using: node16
+  main: 'dist/index.js'

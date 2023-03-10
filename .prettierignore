@@ -1,0 +1,13 @@
+# IDE
+.idea
+.vscode
+
+# dependencies
+node_modules
+
+# tools
+.eslintcache
+tsconfig.tsbuildinfo
+
+# output
+dist
